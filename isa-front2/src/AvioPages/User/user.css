@@ -1,0 +1,28 @@
+#friendsbtn
+{
+    margin-left: 230px;
+}
+
+#reservationbtn
+{
+    margin-left: 500px;
+    margin-top: -59px;
+}
+
+#destsinfobtn
+{
+    margin-top: -50px;
+    margin-left: 300px;
+}
+
+#planelayout
+{
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#sort{
+    max-width: 200px;
+}

@@ -1,0 +1,123 @@
+#divApp {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    overflow:auto;
+}
+
+#cardHome1 {
+    width: 470px;
+    height: 612px;
+    float:left;
+}
+
+#cardHome2 {
+    width: 470px;
+    height: 612px;
+    float:left;
+}
+
+#cardHome3 {
+    width: 470px;
+    height: 612px;
+    float:left;
+}
+
+.card-image {
+    width: 470px;
+    height: 420px;
+}
+
+.slike{
+    width: 100%;
+    height: 100%;
+}
+
+#btnHotels1 {
+    margin-right: 50px;
+}
+
+#btnHotels2 {
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+#btnHotels3 {
+    margin-left: 50px;
+}
+
+#uslugeBtn{
+    margin-left: 50px;
+}
+
+#rezervisiBtn{
+    margin-left: 50px;
+}
+
+#obrisiSobuBtn{
+    margin-left: 50px;
+}
+
+#obrisiTipBtn{
+    margin-left: 50px;
+}
+
+#dodajSobuBtn{
+    float:left;
+    margin-left: 300px;
+    height: 50px;
+    width: 100px;
+}
+
+#dodajSobaClick{
+    margin-top: 20px;
+}
+
+#selectTip{
+    height: 70px;
+    z-index: 1000;
+}
+
+#btnOcene1{
+    margin-right: 50px;
+    margin-top:  20px;
+}
+
+#btnOcene2{
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top:  20px;
+}
+
+#btnOcene3{
+    margin-left: 50px;
+    margin-top:  20px;
+}
+
+#prosecnaOcena{
+    margin-right: 565px;
+}
+
+#addAdminBtn{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#ukupnaCena{
+    text-align: left
+}
+
+#brzaBtn{
+    margin-left: 50px;  
+}
+
+#mapa{
+    width: 200px;
+    height: 200px;
+}
+
+#selectSort{
+    margin-top:20px;
+}

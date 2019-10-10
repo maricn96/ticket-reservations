@@ -1,0 +1,18 @@
+package com.isa.hoteli.hoteliservice.repository;
+
+import java.util.List;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.stereotype.Repository;
+
+import com.isa.hoteli.hoteliservice.model.CenaNocenja;
+import com.isa.hoteli.hoteliservice.model.DodatnaUsluga;
+
+@Repository
+public interface DodatnaUslugaRepository extends JpaRepository<DodatnaUsluga, Long>{
+
+	@Query(value = "SELECT * FROM dodatna_usluga WHERE hotel_id = ?1", nativeQuery=true)
+	List<DodatnaUsluga> getAllFromHotel(Long id);
+	
+}
